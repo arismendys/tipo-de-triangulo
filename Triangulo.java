@@ -1,14 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Triangulos;
 
-/**
- *
- * @author Arismendys Marte
- */
 //Saber si los puntos forman un triangulo y luego que tipo de triangulo es
 public class Triangulo {
     private float a,b,c,d,e;
@@ -59,10 +49,9 @@ public class Triangulo {
         this.e = e;
     }
     public float distancia(Triangulo p){
-    float r=0;
-    //r=(d-p.d)*(d-p.d)+(e-p.e)*(e-p.e);
-    r=(float)Math.pow((d-p.d),2)+(float)Math.pow((e-p.e),2);
-    return (float)Math.round(Math.sqrt(r));
+         float r=0;
+         r=(float)Math.pow((d-p.d),2)+(float)Math.pow((e-p.e),2);
+         return (float)Math.round(Math.sqrt(r));
     }
     
 }
