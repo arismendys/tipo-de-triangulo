@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Triangulos;
 
-/**
- *
- * @author Arismendys Marte
-*/
+
 import java.util.Scanner;
 public class Run_Triangulo {
     public static void main(String[] args){
@@ -37,7 +28,6 @@ public class Run_Triangulo {
         t1 = new Triangulo(x,y,z);
         System.out.println(x+","+y+","+z);
         System.out.println(t1.ftriangulo(t1));
-                //set(a,b,c);
     
     }
     
